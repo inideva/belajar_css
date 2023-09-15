@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma, sans-serif;
+}
+body {
+    background-color: #ffffff;
+}
+.main-container {
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    gap: 5px;
+}
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.img-phone {
+    width: 90%;
+}
+.right {
+    width: 45%;
+    padding-top: 20px;
+}
+.form {
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.logo {
+    width: 180px;
+    margin-top: 20px;
+}
+.form-login {
+    margin-top: 10px;
+}
+.input {
+    width: 270px;
+    height: 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn {
+    background-color: #4bb4f8;
+    color: white;
+    font-weight: bold;
+    width: 270px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.divine {   
+    padding: 15px 50px 10px;
+    display: flex;
+}
+.divine div:nth-child(2) {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    color: grey;
+}
+.divine div:nth-child(1), .divine div:nth-child(3) {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: relative;
+    top: 0.5em;
+}
+.btn-group {
+    padding: 8px 40px;
+}
+.btn-fb {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+.btn-fb img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.btn-fb span {
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.forgot-pw {
+    /* display: block; */
+    font-size: 12px;
+    /* line-height: 14px; */
+    margin-top: 10px;
+    text-align: center;
+    color: #0095f6;
+    text-decoration: none;
+}
+.box {
+    border: 1px solid #dbdbdb;
+    margin-top: 8px;
+    text-align: center;
+    background-color: transparent;
+    padding: 15px;
+    font-size: 14px;
+}
+.box p a {
+    color: #0095f6;
+    font-weight: 600;
+}
+.get {
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+}
+.get p {
+    font-size: 14px;
+    font-weight: 550;
+}
+.store {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.apps {
+    width: 130px;
+}
+.footer {
+    padding-top: 50px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a {
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 8px 12px 8px;
+}
+.copyright {
+    padding: 12px 0;
+    color: grey;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+}
